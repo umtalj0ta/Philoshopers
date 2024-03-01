@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   init.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jgomes-v <jgomes-v@student.42porto.com>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/03/01 17:34:21 by jgomes-v          #+#    #+#             */
+/*   Updated: 2024/03/01 17:55:10 by jgomes-v         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../include/philo.h"
 
 // void    init_forks()
@@ -6,7 +18,7 @@
 // }
 
 
-void	init_forks(t_data_gen *table)
+void	philo_init(t_data_gen *table)
 {
 	int		i;
 	t_philo	*philo;
